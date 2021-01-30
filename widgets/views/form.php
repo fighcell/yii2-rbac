@@ -1,15 +1,15 @@
 <?php
 
 /* 
- * This file is part of the Dektrium project
+ * This file is part of the fighcell project
  * 
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) fighcell project <http://github.com/fighcell>
  * 
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-use dektrium\rbac\models\Assignment;
+use fighcell\rbac\models\Assignment;
 use kartik\select2\Select2;
 use yii\bootstrap\Alert;
 use yii\helpers\Html;

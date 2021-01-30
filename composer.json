@@ -1,18 +1,23 @@
 {
-  "name": "dektrium/yii2-rbac",
-  "description": "RBAC management module for Yii2",
-  "keywords": ["yii2", "yii2-rbac", "rbac management", "dektrium", "rbac gui", "yii rbac", "rbac module"],
+  "name": "fighcell/yii2-rbac",
+  "description": "RBAC management module for Yii2 developed by Dektrium and Modified by Fighcell",
+  "keywords": ["yii2", "yii2-rbac", "rbac management", "fighcell", "rbac gui", "yii rbac", "rbac module"],
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/dektrium/yii2-rbac/issues?state=open",
-    "source": "https://github.com/dektrium/yii2-rbac"
+    "issues": "https://github.com/fighcell/yii2-rbac/issues?state=open",
+    "source": "https://github.com/fighcell/yii2-rbac"
   },
   "authors": [
     {
       "name": "Dmitry Erofeev",
       "email": "dmeroff@gmail.com",
       "homepage": "http://dmeroff.ru"
+    },
+    {
+      "name": "Ahmed Faisal",
+      "email": "ah.faisal@gmail.com",
+      "homepage": "http://fighcell.com"
     }
   ],
   "minimum-stability": "dev",
@@ -22,11 +27,11 @@
   },
   "autoload": {
     "psr-4": {
-      "dektrium\\rbac\\": ""
+      "fighcell\\rbac\\": ""
     }
   },
   "extra": {
-    "bootstrap": "dektrium\\rbac\\Bootstrap",
+    "bootstrap": "fighcell\\rbac\\Bootstrap",
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     }

@@ -1,19 +1,19 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the fighcell project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) fighcell project <http://github.com/fighcell>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\controllers;
+namespace fighcell\rbac\controllers;
 
-use dektrium\rbac\components\DbManager;
-use dektrium\rbac\models\Rule;
-use dektrium\rbac\models\RuleSearch;
+use fighcell\rbac\components\DbManager;
+use fighcell\rbac\models\Rule;
+use fighcell\rbac\models\RuleSearch;
 use yii\di\Instance;
 use yii\filters\VerbFilter;
 use yii\web\Controller;

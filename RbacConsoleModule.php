@@ -1,6 +1,6 @@
 <?php
 
-namespace dektrium\rbac;
+namespace fighcell\rbac;
 
 use yii\base\Module;
 
@@ -14,5 +14,5 @@ class RbacConsoleModule extends Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'dektrium\rbac\commands';
+    public $controllerNamespace = 'fighcell\rbac\commands';
 }

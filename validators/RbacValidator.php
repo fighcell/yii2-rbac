@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the fighcell project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) fighcell project <http://github.com/fighcell>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\validators;
+namespace fighcell\rbac\validators;
 
 use yii\validators\Validator;
 
@@ -18,7 +18,7 @@ use yii\validators\Validator;
  */
 class RbacValidator extends Validator
 {
-    /** @var \dektrium\rbac\components\DbManager */
+    /** @var \fighcell\rbac\components\DbManager */
     protected $manager;
     
     /** @inheritdoc */

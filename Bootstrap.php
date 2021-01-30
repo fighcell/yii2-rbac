@@ -1,19 +1,19 @@
 <?php
 
 /*
- * This file is part of the Dektrium project.
+ * This file is part of the fighcell project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) fighcell project <http://github.com/fighcell/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac;
+namespace fighcell\rbac;
 
-use dektrium\rbac\components\DbManager;
-use dektrium\rbac\components\ManagerInterface;
-use dektrium\user\Module as UserModule;
+use fighcell\rbac\components\DbManager;
+use fighcell\rbac\components\ManagerInterface;
+use fighcell\user\Module as UserModule;
 use yii\base\Application;
 use yii\web\Application as WebApplication;
 use yii\base\BootstrapInterface;
@@ -50,7 +50,7 @@ class Bootstrap implements BootstrapInterface
                 throw new InvalidConfigException('You have wrong authManager configuration');
             }
 
-            // if dektrium/user extension is installed, copy admin list from there
+            // if fighcell/user extension is installed, copy admin list from there
             if ($this->checkUserModuleInstalled($app) && $app instanceof WebApplication) {
                 $app->getModule('rbac')->admins = $app->getModule('user')->admins;
             }   
@@ -58,7 +58,7 @@ class Bootstrap implements BootstrapInterface
     }
     
     /**
-     * Verifies that dektrium/yii2-rbac is installed and configured.
+     * Verifies that fighcell/yii2-rbac is installed and configured.
      * @param  Application $app
      * @return bool
      */
@@ -72,7 +72,7 @@ class Bootstrap implements BootstrapInterface
     }
     
     /**
-     * Verifies that dektrium/yii2-user is installed and configured.
+     * Verifies that fighcell/yii2-user is installed and configured.
      * @param  Application $app
      * @return bool
      */
